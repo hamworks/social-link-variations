@@ -77,7 +77,7 @@ function social_link_render( $block_content, $block ) {
 		$after         = explode( '</svg>', $before[1] );
 		$block_content = $before[0] . $icon . $after[1];
 
-		if ( ! empty( $block['attrs']['label'] ) ) {
+		if ( empty( $block['attrs']['label'] ) ) {
 			$block_content = str_replace( __( 'Share Icon' ), 'LINE', $block_content );
 		}
 	}
