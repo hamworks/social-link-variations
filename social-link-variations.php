@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Social Link Variations
  * Description: Add social link block variations.
- * Version: 0.0.1
+ * Version: 0.1.0
  * Author: HAMWORKS
  * License: GPL-2.0+
  * GitHub Plugin URI: https://github.com/hamworks/social-link-variations
