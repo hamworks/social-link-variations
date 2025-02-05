@@ -1,0 +1,8 @@
+:where(.wp-block-social-links:not(.is-style-logos-only)) .wp-social-link-line {
+	background-color: #06c755;
+	color: #fff;
+}
+
+:where(.wp-block-social-links.is-style-logos-only) .wp-social-link-line {
+	color: #06c755;
+}
